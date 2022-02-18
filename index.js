@@ -6,6 +6,7 @@ for (let i = 0; i < questions.length; i++){
     let userAnswer = window.prompt(question.text)
     if (userAnswer === question.correctAnswer){
         window.alert('Correct')
+        userScore++
     }
 }
 window.alert('Your score is: ' + userScore)
